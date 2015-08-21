@@ -1,0 +1,1235 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+	<!--<base href="http://www.enstitu.biz">-->
+    <meta charset="utf-8">
+    <link rel="icon" href="http://www.enstitu.biz/img/favicon.ico" type="image/x-icon" />
+    <!-- The HTML5 Shim is required for older browsers, mainly older versions IE -->
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 7]>
+      <div style=' clear: both; text-align:center; position: relative;'>
+          <a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://www.theie6countdown.com/images/upgrade.jpg" border="0" &nbsp;alt="" /></a>
+      </div>
+    <![endif]-->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ergün Arıkdal Ruhsal Araştırmalar Enstitüsü</title>
+    <meta name="description" content="ergün arıkdalın getirmiş olduğu bilgilerin genişletilmesi için kurulmuş vakıftır">
+    <link rel="stylesheet" type="text/css" media="all" href="http://www.enstitu.biz/Content/theme1318/css/normalize.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="http://www.enstitu.biz/Content/theme1318/style.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="http://www.enstitu.biz/Content/theme1318/css/prettyPhoto.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="http://www.enstitu.biz/Content/theme1318/css/grid.css" />
+   <!--  <link rel="stylesheet" type="text/css" media="all" href="http://www.michaelsouellette.com/projects/youtube_carousel/youtubecarousel.css" />-->
+   <style>
+   	#yt_videosurround {
+	position: relative;
+	margin: 10px auto;
+}
+
+#yt_embededvideo{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.jcarousel-skin-tango .jcarousel-container {
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+   	border-radius: 10px;
+    background: #FFF;
+    border: 0px solid #346F97;
+}
+
+.jcarousel-skin-tango .jcarousel-direction-rtl {
+	direction: rtl;
+}
+
+.jcarousel-skin-tango .jcarousel-container-horizontal {
+    width: 400px;
+    padding: 20px 40px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.jcarousel-skin-tango .jcarousel-container-vertical {
+    width: 75px;
+    height: 245px;
+    padding: 40px 20px;
+}
+
+.jcarousel-skin-tango .jcarousel-clip {
+    overflow: hidden;
+}
+
+.jcarousel-skin-tango .jcarousel-clip-horizontal {
+    /*width:  560px;*/
+    height: 75px;
+}
+
+.jcarousel-skin-tango .jcarousel-clip-vertical {
+    width:  75px;
+    height: 245px;
+}
+
+.jcarousel-skin-tango .jcarousel-item {
+    width: 75px;
+    height: 75px;
+}
+
+.jcarousel-skin-tango .jcarousel-item-horizontal {
+	margin-left: 20px;
+    margin-right: 20px;
+	cursor: pointer;
+}
+
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-item-horizontal {
+	margin-left: 10px;
+    margin-right: 0;
+}
+
+.jcarousel-skin-tango .jcarousel-item-vertical {
+    margin-bottom: 10px;
+}
+
+.jcarousel-skin-tango .jcarousel-item-placeholder {
+    background: #fff;
+    color: #000;
+}
+
+/**
+ *  Horizontal Buttons
+ */
+.jcarousel-skin-tango .jcarousel-next-horizontal {
+    position: absolute;
+    top: 43px;
+    right: 5px;
+    width: 32px;
+    height: 40px;
+    cursor: pointer;
+    background: transparent url(img/next-horizontal.png) no-repeat 0 0;
+}
+
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-next-horizontal {
+    left: 5px;
+    right: auto;
+    background-image: url(img/prev-horizontal.png);
+}
+
+.jcarousel-skin-tango .jcarousel-next-horizontal:hover,
+.jcarousel-skin-tango .jcarousel-next-horizontal:focus {
+    /*background-position: -32px 0;*/
+}
+
+.jcarousel-skin-tango .jcarousel-next-horizontal:active {
+    /*background-position: -64px 0;*/
+}
+
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal,
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal:hover,
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal:focus,
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal:active {
+    cursor: default;
+    background-position: -96px 0;
+}
+
+.jcarousel-skin-tango .jcarousel-prev-horizontal {
+    position: absolute;
+    top: 43px;
+    left: 5px;
+    width: 32px;
+    height: 40px;
+    cursor: pointer;
+    background: transparent url(img/prev-horizontal.png) no-repeat 0 0;
+}
+
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-prev-horizontal {
+    left: auto;
+    right: 5px;
+    background-image: url(next-horizontal.png);
+}
+
+.jcarousel-skin-tango .jcarousel-prev-horizontal:hover, 
+.jcarousel-skin-tango .jcarousel-prev-horizontal:focus {
+    /*background-position: -32px 0;*/
+}
+
+.jcarousel-skin-tango .jcarousel-prev-horizontal:active {
+    /*background-position: -64px 0;*/
+}
+
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal,
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:hover,
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:focus,
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:active {
+    cursor: default;
+    background-position: -96px 0;
+}
+
+/**
+ *  Vertical Buttons
+ */
+.jcarousel-skin-tango .jcarousel-next-vertical {
+    position: absolute;
+    bottom: 5px;
+    left: 43px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background: transparent url(next-vertical.png) no-repeat 0 0;
+}
+
+.jcarousel-skin-tango .jcarousel-next-vertical:hover,
+.jcarousel-skin-tango .jcarousel-next-vertical:focus {
+    background-position: 0 -32px;
+}
+
+.jcarousel-skin-tango .jcarousel-next-vertical:active {
+    background-position: 0 -64px;
+}
+
+.jcarousel-skin-tango .jcarousel-next-disabled-vertical,
+.jcarousel-skin-tango .jcarousel-next-disabled-vertical:hover,
+.jcarousel-skin-tango .jcarousel-next-disabled-vertical:focus,
+.jcarousel-skin-tango .jcarousel-next-disabled-vertical:active {
+    cursor: default;
+    background-position: 0 -96px;
+}
+
+.jcarousel-skin-tango .jcarousel-prev-vertical {
+    position: absolute;
+    top: 5px;
+    left: 43px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background: transparent url(prev-vertical.png) no-repeat 0 0;
+}
+
+.jcarousel-skin-tango .jcarousel-prev-vertical:hover,
+.jcarousel-skin-tango .jcarousel-prev-vertical:focus {
+    background-position: 0 -32px;
+}
+
+.jcarousel-skin-tango .jcarousel-prev-vertical:active {
+    background-position: 0 -64px;
+}
+
+.jcarousel-skin-tango .jcarousel-prev-disabled-vertical,
+.jcarousel-skin-tango .jcarousel-prev-disabled-vertical:hover,
+.jcarousel-skin-tango .jcarousel-prev-disabled-vertical:focus,
+.jcarousel-skin-tango .jcarousel-prev-disabled-vertical:active {
+    cursor: default;
+    background-position: 0 -96px;
+}
+   	
+   </style>
+    <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans+SC&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+   
+    <script type='text/javascript' src='//code.jquery.com/jquery-1.10.2.min.js'></script>
+    <script type='text/javascript' src='//code.jquery.com/jquery-migrate-1.2.1.min.js'></script>
+    <script type='text/javascript' src='http://www.enstitu.biz/Content/theme1318/js/modernizr-2.0.js?ver=2.0'></script>
+    <script type='text/javascript' src='http://www.enstitu.biz/Content/theme1318/js/superfish.js?ver=1.4.8'></script>
+    <script type='text/javascript' src='http://www.enstitu.biz/Content/theme1318/js/jquery.prettyPhoto.js?ver=3.1.2'></script>
+    <script type='text/javascript' src='http://www.enstitu.biz/Content/theme1318/js/easyTooltip.js?ver=1.0'></script>
+    <script type='text/javascript' src='http://www.enstitu.biz/Content/theme1318/js/jquery.loader.js?ver=1.0'></script>
+
+    <script type='text/javascript' src='http://www.enstitu.biz/Content/theme1318/js/jquery.cycle.all.js?ver=2.99'></script>
+    <script type='text/javascript' src='http://www.enstitu.biz/Content/theme1318/js/audiojs/audio.js?ver=1.0'></script>
+    <script type='text/javascript' src='http://www.enstitu.biz/Content/theme1318/js/custom.js?ver=1.0'></script>
+
+    <!--[if lt IE 9]>
+    <style type="text/css">
+      .border {
+        behavior:url(http://www.enstitu.biz/Content/theme1318/PIE.php)
+        }
+    </style>
+    <![endif]-->
+    
+
+    <script type="text/javascript">
+        // initialise plugins
+        jQuery(function () {
+            // main navigation init
+            jQuery('ul.sf-menu').superfish({
+                delay: 1000, 		// one second delay on mouseout
+                animation: { opacity: 'show', height: 'show' }, // fade-in and slide-down animation
+                speed: 'normal',  // faster animation speed
+                autoArrows: true,   // generation of arrow mark-up (for submenu)
+                dropShadows: false   // drop shadows (for submenu)
+            });
+
+            // prettyphoto init
+            jQuery("a[rel^='prettyPhoto']").prettyPhoto({
+                animation_speed: 'normal',
+                theme: 'facebook',
+                slideshow: 5000,
+                autoplay_slideshow: false
+            });
+
+            // easyTooltip init
+            jQuery("a.tooltip").easyTooltip();
+
+
+            jQuery('#slider-cycle').cycle({
+                fx: 'fade', // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+                timeout: 20000,
+                height: 'auto',
+                prev: '#prev-slider',
+                next: '#next-slider',
+                pager: '#nav-slider',
+                pagerAnchorBuilder: pagerFactory
+            });
+
+            function pagerFactory(idx, slide) {
+                var s = idx > 2 ? ' style="display:none"' : '';
+                return '<li' + s + '><a href="#">' + (idx + 1) + '</a></li>';
+            };
+
+        });
+
+        // Init for audiojs
+        audiojs.events.ready(function () {
+            var as = audiojs.createAll();
+        });
+    </script>
+    <!-- Custom CSS -->
+
+    <style type="text/css">
+        /* Body styling options */
+
+        /* Header styling options */
+
+        /* Links and buttons color */
+
+        /* Body typography */
+        body {
+            /*font-family: Arial, Helvetica, sans-serif;*/
+            /*font-family: 'Alegreya Sans SC', sans-serif;*/
+            color: #000000;
+        }
+
+        #main {
+            font-size: 12px;
+            font-style: normal;
+        }
+    </style>
+
+    <script src="http://www.enstitu.biz/Content/avgrund.js"></script>
+    <link href="http://www.enstitu.biz/Content/avgrund.css" rel="stylesheet" />
+    <script type="text/javascript">
+        function openDialog() {
+            Avgrund.show("#default-popup");
+        }
+        function closeDialog() {
+            Avgrund.hide();
+        }
+    </script>
+
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    
+    
+    
+    
+    <style>
+
+   ul.etkinlikler li {
+  list-style: none;
+  float: left;
+  margin-right: 4px;
+}
+ul.etkinlikler li.controls {
+  float: right;
+}
+ul.etkinlikler li a {
+  font-weight: bold;
+  display: inline-block;
+  padding: 6px 4px;
+  color: #888;
+  outline: 0;
+  text-decoration: none;
+  background: #f3f3f3;
+  background: -webkit-gradient(linear,0 0,0 bottom,from(#eee),to(#e4e4e4));
+  background: -moz-linear-gradient(#eee,#e4e4e4);
+  background: linear-gradient(#eee,#e4e4e4);
+  -pie-background: linear-gradient(#eee,#e4e4e4);
+}
+
+ul.etkinlikler li.active a {
+  pointer-events: none;
+  color: #FF9900;
+  background: #333;
+  background: -webkit-gradient(linear,0 0,0 bottom,from(#888),to(#666));
+  background: -moz-linear-gradient(#888,#666);
+  background: linear-gradient(#888,#666);
+  -pie-background: linear-gradient(#888,#666);
+}
+div.tabscontent > div {
+  padding: 0 2px;
+}
+div.controls {
+  float: right;
+}
+/*div.controls a {
+  margin-left: 5px;
+}
+.lorem {
+  font-style: italic;
+}*/
+    </style>
+    
+    
+    
+   <script src="http://elboletaire.github.io/tabbedcontent/js/tabbedcontent.min.js"></script>
+</head>
+<script>
+        var tabs;
+        jQuery(function($) {
+            tabs = $('.tabscontent').tabbedContent({loop: true}).data('api');
+
+            // switch to tab...
+            $('a[href=#click-to-switch]').on('click', function(e) {
+                var tab = prompt('Tab to switch to (number or id)?');
+                if (!tabs.switchTab(tab)) {
+                    alert('That tab does not exist :\\');
+                }
+                e.preventDefault();
+            });
+
+            // Next and prev actions
+            $('.controls a').on('click', function(e) {
+                var action = $(this).attr('href').replace('#', '');
+                tabs[action]();
+                e.preventDefault();
+            });
+        });
+    </script>
+<body class="home page page-id-209 page-template page-template-page-fullwidth-php">
+    <div id="fb-root"></div>
+    <script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/tr_TR/all.js#xfbml=1&appId=205476626137079";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+   
+ 
+        <div id="main">
+            <aside id="default-popup" class="avgrund-popup" style="display:none;">
+                <h3>Üyelik</h3>
+                <table style="width:100%;" cellspacing="3" cellpadding="3">
+                    <tr>
+                        <td valign="top">
+                           
+                                <strong>Kullanıcı Adı:</strong><br />
+                            <input type="text"  name="username" id="username" style="width:100%;"><br />
+                                <strong>Şifre:</strong><br />
+                            <input type="password" name="password" id="password" style="width: 100%; background: #f3f3f3; border: 1px solid #e5e5e5; padding: 6px 0 6px 5px;" /><br /><br />
+                                <input type="submit" value="Giriş" onclick="giris();" />
+                           <span id="dangerm"></span>
+                        </td>
+                        <td valign="top">
+                            <h3>&nbsp;&nbsp;&nbsp;&nbsp;Sosyal Ağ</h3>
+                            <form method="post" action="/">&nbsp;&nbsp;&nbsp;&nbsp;<input type="image" src="http://www.enstitu.biz/Images/icon_fbconnect.png" alt="Facebook bağlan"></form>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <table>
+                                <tr>
+                                    <td><a href="/YeniUye">Yeni Üyelik</a></td>
+                                    <td> |</td>
+                                    <td><a href="/SifreResetle">Şifremi Unuttum</a> </td>
+                                    <td> |</td>
+                                    <td><button onclick="javascript:closeDialog();">Kapat</button></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <script type="text/javascript">
+    function giris() {
+        var valusername = $("#username").val();
+        var valpassword = $("#password").val();
+        var epass;
+       
+
+   $.ajax({
+                url: "/haslanmis",
+                type: "POST",
+                contentType: "application/json",
+                cache: false,
+                dataType: "json",
+                data: "{input: '" + valpassword + "'}",
+    
+                success: function (msg) {           
+                    epass = msg.Hmessage;           
+                    uyeKontrol(valusername, epass);
+
+                },
+                error: function (xhr, status) {
+                    console.log(status);
+                    console.log(xhr.responseText); 
+                }
+    });
+
+
+
+
+    };
+    
+                    function uyeKontrol(user,pass) {
+                        $.get("uyemiz", { userName: user, passWord: pass })
+                            .done(function (data) {
+                                //alert("Data Loaded: " + data);
+                                if (data.Rmessage != null) {
+                                    $('#dangerm').text(data.Rmessage);
+                                    //console.log("test" + data.Rmessage);
+                                } else {
+                                    document.location.href = "http://www.enstitu.biz";
+                                }
+                                
+                                
+                            })
+                            .fail(function(data) {
+                                console.log(data.Rmessage);
+                                
+                            });
+                        return false;
+                    }
+
+
+
+
+</script>
+
+
+            </aside>
+            <header id="header">
+                <div id="widget-header">
+                    <div id="nav_menu-3" class="widget-header">
+                        <div class="menu-top-menu-container">
+                            <ul id="menu-top-menu" class="menu">
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/"><b>Anasayfa</b></a></li>
+                                <li>|</li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/hakkimizda">HAKKIMIZDA</a></li>
+                                    <li>|</li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/Egitim/Programlar">EĞİTİM PROGRAMLARI</a></li>
+                                    <li>|</li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/letisim">İLETİŞİM</a></li>
+                                    <li>|</li>
+                                
+
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="#" onclick="javascript: openDialog();" title="Üyelik İşlemleri">Üyelik  İşlemleri</a></li>
+
+
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div><!--#widget-header-->
+                <div style="background-color:white">
+                    <a href="/" id="logo"><img src="http://www.enstitu.biz/img/ergun-logo2.png" alt="Enstitu.biz" title="Ergün Arıkdal Ruhsal Araştırmalar Merkezi" /></a>
+
+                </div>
+                
+                
+                <!--.primary-->
+            </header>
+
+            <div class="clear"></div>
+            <!-- this encompasses the entire Web site -->
+            <div class="primary_content_wrap clearfix">
+                <div class="container_16">
+                   
+                        
+
+
+<div id="content">
+    <div id="post-209" class="post-209 page type-page status-publish hentry page">
+
+        <div class="grid_8">
+           <div id="yt_container"></div> 
+<!--<ul id="slider-cycle">
+
+
+                    <li>
+                        <a href="http://www.enstitu.biz" title="Enstitu Tanıtım">
+                            <div class="thumb-wrap">
+                                <iframe scrolling="no" height="238" width="460" src="/Home/WebTvPlayer?Id=rae_jenerik.mp4" marginheight="0" marginwidth="0"></iframe>
+                            </div>
+                        </a><h1><a href="http://www.enstitu.biz" title="Enstitu Tanıtım">Enstitu Tanıtım</a></h1>
+                    </li>
+
+
+</ul>-->
+
+
+<div id="slider-controls"><ul id="nav-slider"></ul></div><br />
+
+
+
+
+
+
+
+            <div class="thr"><!-- --></div></p>
+            <p>
+                <ul class="recent-posts posts">
+                        <li class="entry">
+                            <a href="/Yazilar/madde-tekamul-sevgi"
+                               title="Madde Tekam&#252;l Sevgi">
+                                <div class="thumb-wrap">
+                                    <img width="220" height="113"
+                                         src="http://cm.enstitu.biz/Handlers/Resim.ashx?id=559d342bf6e8b1082ca25ae0"
+                                         class="thumb wp-post-image" alt="Madde Tekam&#252;l Sevgi" title="Madde Tekam&#252;l Sevgi" />
+                                </div>
+                            </a>
+                            <h5>
+                                <a href="/Yazilar/madde-tekamul-sevgi"
+                                   title="Madde Tekam&#252;l Sevgi">Madde Tekam&#252;l Sevgi</a>
+                            </h5>
+                            <div class="excerpt">
+                                Erg&#252;n Arıkdal &#39;ın 2 Eyl&#252;l 1992 yılında vermiş olduğu  konferansa ait kısa bir b&#246;l&#252;m&#252; paylaşıyoruz:
+                            </div>
+                            
+                            <div class="clear"></div>
+                        </li>
+                        <li class="entry">
+                            <a href="/Yazilar/sevmek-anlamak-anlasilmak---bolum-1"
+                               title="&quot;Sevmek, Anlamak, Anlaşılmak&quot; - B&#246;l&#252;m: 1">
+                                <div class="thumb-wrap">
+                                    <img width="220" height="113"
+                                         src="http://cm.enstitu.biz/Handlers/Resim.ashx?id=559d3145f6e8b1082ca25ad8"
+                                         class="thumb wp-post-image" alt="&quot;Sevmek, Anlamak, Anlaşılmak&quot; - B&#246;l&#252;m: 1" title="&quot;Sevmek, Anlamak, Anlaşılmak&quot; - B&#246;l&#252;m: 1" />
+                                </div>
+                            </a>
+                            <h5>
+                                <a href="/Yazilar/sevmek-anlamak-anlasilmak---bolum-1"
+                                   title="&quot;Sevmek, Anlamak, Anlaşılmak&quot; - B&#246;l&#252;m: 1">&quot;Sevmek, Anlamak, Anlaşılmak&quot; - B&#246;l&#252;m: 1</a>
+                            </h5>
+                            <div class="excerpt">
+                                Bizler, bizim i&#231;in en &#246;nemli ger&#231;eği tamamen unutuyoruz: Bizler her şeyden &#246;nce birbirimizi tanımak ve anlamak zorundayız.
+                            </div>
+                            
+                            <div class="clear"></div>
+                        </li>
+                    <!-- .entry (end) -->
+                </ul><!-- .recent-posts (end) -->
+            </p>
+        </div>
+
+        <div class="grid_4">
+            <br />
+            <div class="s-box clearfix">
+                <h2>Etkinlikler  <a href="/rss/"><img class="size-full wp-image-333" title="icon-rss" src="http://www.enstitu.biz/images/icon-rss.png" alt="" width="22" height="21" /></a></h2>
+                <p>Bu ayın konferansları</p>
+                <p>
+                	
+                	<ul class="etkinlikler">
+    <li><a href="#tab-1">İstanbul</a></li>
+    <li><a href="#tab-2">Ankara</a></li>
+    <li><a href="#tab-3">Adana</a></li>
+
+</ul>
+     <div class="tabscontent">
+    <div id="tab-1">
+        <ul class="recent-posts news">
+
+                            <li class="entry">
+                                <h5>
+                                    <a href="#"
+                                       title="4 Ağustos 2015">4 Ağustos 2015</a>
+                                </h5>
+                                <div class="excerpt">4 Ağustos 2015<br />Serbest Soru Cevap Konferansı </div>
+                                <span class="meta">
+                                    <span class="date">Konuşmacı: Tarık ARIKDAL</span>
+                                    
+                                </span><div class="clear"></div>
+                            </li>
+                            <li class="entry">
+                                <h5>
+                                    <a href="#"
+                                       title="11 Ağustos 2015">11 Ağustos 2015</a>
+                                </h5>
+                                <div class="excerpt">11 Ağustos 2015<br />Egodan Kurtulmak ve Şuurlu Hayata Ge&#231;mek Nasıl Ger&#231;ekleşir ? </div>
+                                <span class="meta">
+                                    <span class="date">Konuşmacı: G&#252;nay Yal&#231;ın</span>
+                                    
+                                </span><div class="clear"></div>
+                            </li>
+                            <li class="entry">
+                                <h5>
+                                    <a href="#"
+                                       title="18 Ağustos 2015">18 Ağustos 2015</a>
+                                </h5>
+                                <div class="excerpt">18 Ağustos 2015<br />Erg&#252;n Arıkdal&#39;ın 6 Mart 1990 tarihli Konferansı. Konu: &quot;Serbest Soru Cevap 1. B&#246;l&#252;m&quot; </div>
+                                <span class="meta">
+                                    <span class="date">Konuşmacı: Erg&#252;n ARIKDAL</span>
+                                    
+                                </span><div class="clear"></div>
+                            </li>
+                            <li class="entry">
+                                <h5>
+                                    <a href="#"
+                                       title="25 Ağustos 2015">25 Ağustos 2015</a>
+                                </h5>
+                                <div class="excerpt">25 Ağustos 2015<br />Erg&#252;n Arıkdal&#39;ın 6 Mart 1990 tarihli Konferansı. Konu: &quot;Serbest Soru Cevap 2. B&#246;l&#252;m&quot; </div>
+                                <span class="meta">
+                                    <span class="date">Konuşmacı: Erg&#252;n ARIKDAL</span>
+                                    
+                                </span><div class="clear"></div>
+                            </li>
+
+
+                    </ul>
+
+    </div>
+    <div id="tab-2">
+        <!-- your second tab content -->
+    </div>
+    <div id="tab-3">
+        <!-- your third tab content -->
+    </div>
+    <div id="tab-n">
+        <!-- your n tab content -->
+    </div>
+</div>
+                	
+                	
+                   
+                    <!-- .recent-posts (end) -->
+                    <a href="/makaleler" class="link">Tüm Makaleler</a>
+                </p>
+                <div class="s-box-bottom"></div>
+            </div><!-- s-box (end) --><br />
+        </div>
+
+        <div class="grid_4">
+            <a href="/EgitimProgram/Basvuru">
+                <img style="width:100%" title="Eğitim Kayıdı" alt="Eğitim Kayıdı" src="http://www.enstitu.biz/img/egitim_kayit.png" />
+            </a>
+            <h2>Facebook Sayfamız</h2>
+
+            
+            <p>
+                <iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2FEnstitu.biz&amp;width=240&amp;height=62&amp;colorscheme=light&amp;show_faces=false&amp;header=true&amp;stream=false&amp;show_border=true&amp;appId=138491209643739" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:240px; height:82px;" allowtransparency="true"></iframe>
+            </p>
+            <p><div class="thr"><!-- --></div></p>
+            <h2>Kitap</h2>
+            
+
+                <p>
+                    <a href="http://www.enstitu.biz" target="_blank">
+                        <img width="220" class="thumbnail" src="http://cm.enstitu.biz/Handlers/Resim.ashx?id=522ddcc3f6e8b11ba8ddc556" alt="&#220;stad Erg&#252;n Arıkdal&#39;ın ilk defa yayınlanan &quot;Anadolu Misyonu&quot; adlı kitabı satın almak i&#231;in iletişim linkinden irtibata ge&#231;menizi rica ederiz." />
+                    </a>
+                </p>
+                <p>&#220;stad Erg&#252;n Arıkdal&#39;ın ilk defa yayınlanan &quot;Anadolu Misyonu&quot; adlı kitabı satın almak i&#231;in iletişim linkinden irtibata ge&#231;menizi rica ederiz.</p>
+
+            <p><div class="thr"><!-- --></div></p>
+            <h2>Arama</h2>
+
+            <div id="subscribe-form">
+                <form method="get" id="aran">
+
+                    <!--<legend>Sitede Ara</legend>-->
+
+                    <label for="s2email">Arama</label>
+                    <input type="text" id="deger3" name="deger3" placeholder="ara…">
+                    <!--<span class="help-block">Example block-level help text here.</span>
+                    <label class="checkbox">
+                      <input type="checkbox"> Check me out
+                    </label>-->
+                    <button type="submit" class="btn">Ara</button>
+
+                </form>
+                <script type="text/javascript">
+
+                    $('#aran').submit(function () {
+                        var deger3 = $('#deger3').val();
+
+                        if (deger3.length > 0) {
+                            location.href = "/Arama/" + encodeURI(deger3);
+                        }
+                        else {
+                            alert("Arama boş geçilemez");
+                        }
+
+                        return false;
+                    });
+
+                </script>
+                
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div class="hr">
+            <!-- -->
+        </div>
+    </div>
+
+    <div class="grid_16">
+        <h2>
+            Editörün Seçtikleri <a href="/rss/">
+                <img class="size-full wp-image-333" title="icon-rss" src="http://www.enstitu.biz/images/icon-rss.png" alt="rss" width="22" height="21" />
+            </a>
+        </h2>
+    </div>
+    <div class="clear"></div>
+    <ul class="recent-posts featured_articles">
+    <li class="entry">
+        <a href="/Yazilar/hologramik-kardeslik-nedir-" title="Hologramik Kardeşlik nedir ?">
+            <div class="thumb-wrap">
+                <img width="220" height="119" src="http://cm.enstitu.biz/Handlers/Resim.ashx?id=559e10d5f6e8b10fec45709a" class="thumb wp-post-image" alt="Hologramik Kardeşlik nedir ?" title="Hologramik Kardeşlik nedir ?" />
+            </div>
+        </a>
+        <h5>
+            <a href="/Yazilar/hologramik-kardeslik-nedir-" title="Hologramik Kardeşlik nedir ?">
+                Hologramik Kardeşlik nedir ?
+            </a></h5>
+        <div class="excerpt">Hologramik Kardeşlik</div>
+     
+        <div class="clear"></div>
+       
+    </li>
+    <li class="entry">
+        <a href="/Yazilar/ara-bedenler" title="Ara bedenler">
+            <div class="thumb-wrap">
+                <img width="220" height="119" src="http://cm.enstitu.biz/Handlers/Resim.ashx?id=559d331af6e8b1082ca25ade" class="thumb wp-post-image" alt="Ara bedenler" title="Ara bedenler" />
+            </div>
+        </a>
+        <h5>
+            <a href="/Yazilar/ara-bedenler" title="Ara bedenler">
+                Ara bedenler
+            </a></h5>
+        <div class="excerpt">Ara (Enerji) Bedenler:</div>
+     
+        <div class="clear"></div>
+       
+    </li>
+    <li class="entry">
+        <a href="/Yazilar/sadiklar-plani-tebligleri---celse-143" title="Sadıklar Planı Tebliğleri - Celse: 143">
+            <div class="thumb-wrap">
+                <img width="220" height="119" src="http://cm.enstitu.biz/Handlers/Resim.ashx?id=559e0e09f6e8b10fec45708a" class="thumb wp-post-image" alt="Sadıklar Planı Tebliğleri - Celse: 143" title="Sadıklar Planı Tebliğleri - Celse: 143" />
+            </div>
+        </a>
+        <h5>
+            <a href="/Yazilar/sadiklar-plani-tebligleri---celse-143" title="Sadıklar Planı Tebliğleri - Celse: 143">
+                Sadıklar Planı Tebliğleri - Celse: 143
+            </a></h5>
+        <div class="excerpt">Sadıklar Planı Tebliğleri&#39;nden</div>
+     
+        <div class="clear"></div>
+       
+    </li>
+    <li class="entry">
+        <a href="/Yazilar/kurban-inancinin-kokeni" title="Kurban inancının k&#246;keni">
+            <div class="thumb-wrap">
+                <img width="220" height="119" src="http://cm.enstitu.biz/Handlers/Resim.ashx?id=559d303cf6e8b1082ca25ad4" class="thumb wp-post-image" alt="Kurban inancının k&#246;keni" title="Kurban inancının k&#246;keni" />
+            </div>
+        </a>
+        <h5>
+            <a href="/Yazilar/kurban-inancinin-kokeni" title="Kurban inancının k&#246;keni">
+                Kurban inancının k&#246;keni
+            </a></h5>
+        <div class="excerpt">&#220;stad Erg&#252;n Arıkdal bu videoda kurban kavramı &#252;zerinde duruyor</div>
+     
+        <div class="clear"></div>
+       
+    </li>
+<div class="clear"></div>    <li class="entry">
+        <a href="/Yazilar/ruh-suurlu-ve-idraklidir" title="Ruh şuurlu ve idraklidir">
+            <div class="thumb-wrap">
+                <img width="220" height="119" src="http://cm.enstitu.biz/Handlers/Resim.ashx?id=52f10587f6e8b112c0270166" class="thumb wp-post-image" alt="Ruh şuurlu ve idraklidir" title="Ruh şuurlu ve idraklidir" />
+            </div>
+        </a>
+        <h5>
+            <a href="/Yazilar/ruh-suurlu-ve-idraklidir" title="Ruh şuurlu ve idraklidir">
+                Ruh şuurlu ve idraklidir
+            </a></h5>
+        <div class="excerpt">Hazırlanmakta olan &quot;RİM&quot; kitabından bir alıntı</div>
+     
+        <div class="clear"></div>
+       
+    </li>
+    <li class="entry">
+        <a href="/Yazilar/sabir" title="Sabır">
+            <div class="thumb-wrap">
+                <img width="220" height="119" src="http://cm.enstitu.biz/Handlers/Resim.ashx?id=559e0f8ff6e8b10fec457094" class="thumb wp-post-image" alt="Sabır" title="Sabır" />
+            </div>
+        </a>
+        <h5>
+            <a href="/Yazilar/sabir" title="Sabır">
+                Sabır
+            </a></h5>
+        <div class="excerpt">Sadıklar Planı celselerinden alıntı</div>
+     
+        <div class="clear"></div>
+       
+    </li>
+    <li class="entry">
+        <a href="/Yazilar/sabir-zaman-enerjisini-kullanmaktir" title="Sabır Zaman Enerjisini Kullanmaktır">
+            <div class="thumb-wrap">
+                <img width="220" height="119" src="http://cm.enstitu.biz/Handlers/Resim.ashx?id=559e1175f6e8b10fec45709e" class="thumb wp-post-image" alt="Sabır Zaman Enerjisini Kullanmaktır" title="Sabır Zaman Enerjisini Kullanmaktır" />
+            </div>
+        </a>
+        <h5>
+            <a href="/Yazilar/sabir-zaman-enerjisini-kullanmaktir" title="Sabır Zaman Enerjisini Kullanmaktır">
+                Sabır Zaman Enerjisini Kullanmaktır
+            </a></h5>
+        <div class="excerpt">Esneklik ve uyumun adıdır</div>
+     
+        <div class="clear"></div>
+       
+    </li>
+    <li class="entry">
+        <a href="/Yazilar/anadolu-nsani" title="Anadolu İnsanı">
+            <div class="thumb-wrap">
+                <img width="220" height="119" src="http://cm.enstitu.biz/Handlers/Resim.ashx?id=559e13ccf6e8b10fec4570a8" class="thumb wp-post-image" alt="Anadolu İnsanı" title="Anadolu İnsanı" />
+            </div>
+        </a>
+        <h5>
+            <a href="/Yazilar/anadolu-nsani" title="Anadolu İnsanı">
+                Anadolu İnsanı
+            </a></h5>
+        <div class="excerpt">Anadolu Misyonu kitabından alıntı</div>
+     
+        <div class="clear"></div>
+       
+    </li>
+    <!-- .entry (end) -->
+   </ul>
+    <!-- .recent-posts (end) -->
+    <div class="pagination">
+    </div><!--.pagination-->
+</div>
+
+<!--#post-# .post-->
+
+
+
+<!-- Teaser Lightbox -->
+
+
+
+
+
+<script type="text/javascript">
+    function createCookie(e, t, n) {
+        var r;
+        if (n) {
+            var i = new Date;
+            //i.setTime(i.getTime() + n * 24 * 60 * 60 * 1e3);
+            i.setTime(i.getTime() + n * 1 * 60 * 60 * 1e3);
+
+
+            r = "; expires=" + i.toGMTString()
+        } else {
+            r = ""
+        }
+        document.cookie = escape(e) + "=" + escape(t) + r + "; path=/"
+    }
+
+    function readCookie(e) {
+        var t = escape(e) + "=";
+        var n = document.cookie.split(";");
+        for (var r = 0; r < n.length; r++) {
+            var i = n[r];
+            while (i.charAt(0) === " ") i = i.substring(1, i.length);
+            if (i.indexOf(t) === 0) return unescape(i.substring(t.length, i.length))
+        }
+        return null
+    }
+
+    function eraseCookie(e) {
+        createCookie(e, "", -1)
+    }
+
+    //createCookie("ulanistanbulb", "viewed", .25);
+
+
+    if (readCookie("rbir") != "viewed") {
+
+        var dPlayer = document.getElementById("d-video-player");
+        var dCloseButton = document.getElementById("d-btn-close");
+        var dOverlay = document.getElementById("d-teaser-overlay");
+        var dLightbox = document.getElementById("d-teaser-lightbox");
+
+        //dOverlay.style.display = "block";
+        //dLightbox.style.display = "block";
+        if (navigator.userAgent.match(/ipad|iphone|android/im)) {
+            // dPlayer.innerHTML = "<iframe src='http://www.kanald.com.tr/handlers/sayac.ashx?vid=25589&type=start' width='0' height='0' frameborder='0' scrolling='no'></iframe><video width='886px' height='490px' controls='controls'><source src='http://o.dogannet.tv/ott/S8/MP4/KANALD/HDP1A_-52814_0a71-_1500.mp4' /></video>"
+        } else {
+           // dPlayer.innerHTML = " <a href=\"http://www.enstitu.biz/Yazilar/egitim-talep-formu\" target=\"_blank\" title=\"başvuru formu\"> <img src=\"/Images/kapak/transparent.png\" alt=\"eğitim başvuru formu\" style=\"height:490px; width:900px;\" /></a>";
+        }
+        /*
+        dCloseButton.onclick = function () {
+            dOverlay.parentNode.removeChild(dOverlay);
+            dLightbox.parentNode.removeChild(dLightbox)
+        };
+*/
+        createCookie("rbir", "viewed", .25)
+
+    }
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+<style type="text/css">
+    .teaser-overlay {
+        display: none;
+        width: 100%;
+        height: 100%;
+        background: #000;
+        opacity: .8;
+        position: fixed;
+        z-index: 9998;
+        top: 0;
+        left: 0;
+    }
+
+    .teaser-lightbox {
+        display: none;
+        border: 3px solid #fff;
+        /*background: #005fd4;*/
+        background-image: url('/Images/kapak/tanitim.png');
+        padding: 20px;
+        position: absolute;
+        z-index: 9999;
+        width: 884px;
+        left: 50%;
+        margin-left: -457px;
+        top: 70px;
+    }
+
+
+
+        .teaser-lightbox h2 {
+            font-family: Arial,sans-serif;
+            font-size: 20px;
+            font-weight: 400;
+            color: #fff;
+            margin: 0 0 14px;
+        }
+
+        .teaser-lightbox .btn-close {
+            font-family: Arial,sans-serif;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: 400;
+            /*background: #005fd4;*/
+            background-image: url('/Images/kapak/kapat4.png');
+            /*color: #000;*/
+            padding: 12px 15px 8px;
+            position: absolute;
+            right: -3px;
+            top: -49px;
+            height: 26px;
+            border: 3px solid #fff;
+            border-bottom: none;
+            border-top-left-radius: 6px;
+            border-top-right-radius: 6px;
+            cursor: pointer;
+        }
+
+
+
+
+
+            .teaser-lightbox .btn-close .icon {
+                width: 16px;
+                height: 16px;
+                /*background: url(http://www.kanald.com.tr/Content/kapak/icon-close-teaser.png) no-repeat 0 0;*/
+                background: url(/Images/kapak/icon-close-teaser.png) no-repeat 0 0;
+                margin-top: -5px;
+                display: block;
+                float: right;
+                margin: 6px 0 0 5px;
+            }
+</style>
+<!-- End Lightbox -->
+
+                    
+                        <div class="clear"></div>
+                        <div id="widget-footer" class="clearfix">
+    <div class="hr"></div>
+    <div class="grid_4">
+        <div id="nav_menu-4">
+            <h3>Gözattınız mı?</h3><div class="menu-editors-picks-container">
+                <ul id="menu-editors-picks" class="menu">
+                          <li id="menu-item-52b183f1f6e8b118b85ea044" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-52b183f1f6e8b118b85ea044"><a href="/Yazilar/sevgi-enerjisinin-dolasimi" title="Sevgi Enerjisinin Dolaşımı">Sevgi Enerjisinin Dolaşımı</a></li>
+                          <li id="menu-item-52b183a0f6e8b118b85ea041" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-52b183a0f6e8b118b85ea041"><a href="/Yazilar/her-sey-pozitife-gider---2" title="Her Şey Pozitife Gider - 2">Her Şey Pozitife Gider - 2</a></li>
+                          <li id="menu-item-52b18365f6e8b118b85ea03e" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-52b18365f6e8b118b85ea03e"><a href="/Yazilar/her-sey-pozitife-gider---1" title="Her Şey Pozitife Gider - 1">Her Şey Pozitife Gider - 1</a></li>
+                          <li id="menu-item-52b18312f6e8b118b85ea03b" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-52b18312f6e8b118b85ea03b"><a href="/Yazilar/gercek-korunma-esnekliktir" title="Ger&#231;ek korunma esnekliktir">Ger&#231;ek korunma esnekliktir</a></li>
+                          <li id="menu-item-52b18281f6e8b118b85ea038" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-52b18281f6e8b118b85ea038"><a href="/Yazilar/yozlasma-esneklik-ve-degisim" title="Yozlaşma, Esneklik ve Değişim">Yozlaşma, Esneklik ve Değişim</a></li>
+                          <li id="menu-item-52b18210f6e8b118b85ea035" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-52b18210f6e8b118b85ea035"><a href="/Yazilar/sevginin-enerjetik-alani" title="Sevginin Enerjetik Alanı">Sevginin Enerjetik Alanı</a></li>
+
+                   
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="grid_4">
+        <div id="social_networks-3">
+            <h3>Takip edin</h3>
+            <div class="desc">Sosyal ağlar.</div>
+
+            <ul class="social-networks"> 
+
+                
+                <li><a rel="external" title="facebook" href="https://www.facebook.com/Enstitu.biz"><img src="http://www.enstitu.biz/Content/theme1318/images/icons/facebook.png" alt="facebook"></a></li>
+                
+                
+            </ul>
+
+        </div>
+    </div>
+    <div class="grid_8">
+
+        <div id="my_requestquotewidget-3">
+            <div class="box-text">
+                
+            </div>      
+
+        </div>
+    </div>
+</div>
+
+
+                    </div>
+            </div>
+            <footer id="footer">
+                <div class="container_16 clearfix">
+                    <div class="grid_16">
+
+                        &copy; 2013 Tüm Hakları saklıdır    <a href="mailto:info@enstitu.biz">info@enstitu.biz</a>| <a href="http://livedemo00.template-help.com/wordpress_34989/privacy-policy/" title="Privacy Policy">Gizlilik Politikası</a> | <a href="#">Kullanım Şartları</a> | <a href="#">Bize Ulaşın</a><br /><!-- {%FOOTER_LINK} --><br />
+
+
+
+                        <nav class="footer">
+                            <ul id="menu-footer-menu" class="footer-nav"></ul>
+                        </nav>
+                    </div>
+                </div>
+                <!--.container-->
+            </footer>
+
+        </div>
+
+    <div class="avgrund-cover"></div>
+    <script src="http://www.enstitu.biz/bundles/jqueryui?v=EHft7nwilnDMnejvwTyEKn_C5lwIsN1M3Xyb8c9OmSQ1"></script>
+
+    <link href="http://www.enstitu.biz/Content/themes/base/css?v=myqT7npwmF2ABsuSaHqt8SCvK8UFWpRv7T4M8r3kiK01" rel="stylesheet"/>
+<link href="http://www.enstitu.biz/Content/css" rel="stylesheet"/>
+
+    
+
+
+
+		<!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>-->
+
+
+<script>
+	/*!
+ * Built on top of the jQuery library
+ *   http://jquery.com
+ *
+ * YouTubeCarousel - YouTube Carousel and Player
+ *   http://www.michaelsouellette.com/youtubecarousel/
+ *
+ * Copyright (c) 2011 Michael S. Ouellette (http://www.michaelsouellette.com)
+ * Dual licensed under the MIT (http://www.opensource.org/licenses/mit-license.php)
+ * and GPL (http://www.opensource.org/licenses/gpl-license.php) licenses.
+ *
+ *----------------------------------------------------------------------------
+ *
+ * jCarousel - Riding carousels with jQuery
+ *   http://sorgalla.com/jcarousel/
+ *
+ */
+
+/*YouTube Carousel Code*/
+/*
+ * view-source:http://www.michaelsouellette.com/projects/youtube_carousel/example.htm
+ */
+/*
+https://www.youtube.com/watch?v=55_OtaOcFjs
+https://www.youtube.com/watch?v=xtrqdrCnIu8
+https://www.youtube.com/watch?v=dP3Nui4U3ZE
+https://www.youtube.com/watch?v=N2xkVc8TdD0
+https://www.youtube.com/watch?v=Zve_GYRsAK4
+https://www.youtube.com/watch?v=hFVggPRsv-Y
+https://www.youtube.com/watch?v=l6t1XiSeSbs
+https://www.youtube.com/watch?v=PwBBHiXZ-g0
+*/
+/*List of YouTube videos - you need just the video ID for this (ex:)*/
+var yt_videos = ['xtrqdrCnIu8','dP3Nui4U3ZE','N2xkVc8TdD0','Zve_GYRsAK4','hFVggPRsv-Y','l6t1XiSeSbs','PwBBHiXZ-g0','55_OtaOcFjs'];
+
+/*Video height and width*/
+var yt_height = 250;
+var yt_width = 460;
+
+/*-----DO NOT EDIT BELOW THIS-----*/
+jQuery(document).ready(function () {
+	var yt_html = "";
+	
+	for (var num=0, len=yt_videos.length; num<len; ++num){
+		yt_html = yt_html + "<li><a onclick='change_embeded(\"" + yt_videos[num] + "\")'><img src='http://img.youtube.com/vi/"+yt_videos[num]+"/2.jpg' class='myimage' style='max-height:75px;' /></a></li>";
+	}
+	
+	jQuery('#yt_container').html('<div id="yt_videosurround"><div id="yt_embededvideo"><object width="'+ yt_width +'" height="'+ yt_height +'"><param name="movie" value="http://www.youtube.com/v/'+ yt_videos[0] +'?version=3&amp;hl=en_US"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/'+ yt_videos[0] +'?version=3&amp;hl=en_US" type="application/x-shockwave-flash" width="'+ yt_width +'" height="'+ yt_height +'" allowscriptaccess="always" allowfullscreen="true" wmode="transparent"></embed></object></div></div><ul id="mycarousel" class="jcarousel-skin-tango">'+yt_html+'</ul>');
+	var embeded_cssObj = {
+		'width' : yt_width,
+		'height' : yt_height
+	}; 
+	jQuery('#yt_embededvideo').css(embeded_cssObj);
+	jQuery('#yt_videosurround').css(embeded_cssObj);
+	jQuery('#mycarousel').jcarousel({
+    	wrap: 'circular'
+    });
+});
+
+
+function change_embeded(video_id){
+	jQuery('#yt_embededvideo').html('<object width="'+ yt_width +'" height="'+ yt_height +'"><param name="movie" value="http://www.youtube.com/v/'+ video_id +'?version=3&amp;hl=en_US"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/'+ video_id +'?version=3&amp;hl=en_US" type="application/x-shockwave-flash" width="'+ yt_width +'" height="'+ yt_height +'" allowscriptaccess="always" allowfullscreen="true" wmode="transparent"></embed></object>');
+}
+
+/*jCarousel Code*/
+(function(g){var q={vertical:!1,rtl:!1,start:1,offset:1,size:null,scroll:3,visible:null,animation:"normal",easing:"swing",auto:0,wrap:null,initCallback:null,setupCallback:null,reloadCallback:null,itemLoadCallback:null,itemFirstInCallback:null,itemFirstOutCallback:null,itemLastInCallback:null,itemLastOutCallback:null,itemVisibleInCallback:null,itemVisibleOutCallback:null,animationStepCallback:null,buttonNextHTML:"<div></div>",buttonPrevHTML:"<div></div>",buttonNextEvent:"click",buttonPrevEvent:"click", buttonNextCallback:null,buttonPrevCallback:null,itemFallbackDimension:null},m=!1;g(window).bind("load.jcarousel",function(){m=!0});g.jcarousel=function(a,c){this.options=g.extend({},q,c||{});this.autoStopped=this.locked=!1;this.buttonPrevState=this.buttonNextState=this.buttonPrev=this.buttonNext=this.list=this.clip=this.container=null;if(!c||c.rtl===void 0)this.options.rtl=(g(a).attr("dir")||g("html").attr("dir")||"").toLowerCase()=="rtl";this.wh=!this.options.vertical?"width":"height";this.lt=!this.options.vertical? this.options.rtl?"right":"left":"top";for(var b="",d=a.className.split(" "),f=0;f<d.length;f++)if(d[f].indexOf("jcarousel-skin")!=-1){g(a).removeClass(d[f]);b=d[f];break}a.nodeName.toUpperCase()=="UL"||a.nodeName.toUpperCase()=="OL"?(this.list=g(a),this.clip=this.list.parents(".jcarousel-clip"),this.container=this.list.parents(".jcarousel-container")):(this.container=g(a),this.list=this.container.find("ul,ol").eq(0),this.clip=this.container.find(".jcarousel-clip"));if(this.clip.size()===0)this.clip= this.list.wrap("<div></div>").parent();if(this.container.size()===0)this.container=this.clip.wrap("<div></div>").parent();b!==""&&this.container.parent()[0].className.indexOf("jcarousel-skin")==-1&&this.container.wrap('<div class=" '+b+'"></div>');this.buttonPrev=g(".jcarousel-prev",this.container);if(this.buttonPrev.size()===0&&this.options.buttonPrevHTML!==null)this.buttonPrev=g(this.options.buttonPrevHTML).appendTo(this.container);this.buttonPrev.addClass(this.className("jcarousel-prev"));this.buttonNext= g(".jcarousel-next",this.container);if(this.buttonNext.size()===0&&this.options.buttonNextHTML!==null)this.buttonNext=g(this.options.buttonNextHTML).appendTo(this.container);this.buttonNext.addClass(this.className("jcarousel-next"));this.clip.addClass(this.className("jcarousel-clip")).css({position:"relative"});this.list.addClass(this.className("jcarousel-list")).css({overflow:"hidden",position:"relative",top:0,margin:0,padding:0}).css(this.options.rtl?"right":"left",0);this.container.addClass(this.className("jcarousel-container")).css({position:"relative"}); !this.options.vertical&&this.options.rtl&&this.container.addClass("jcarousel-direction-rtl").attr("dir","rtl");var j=this.options.visible!==null?Math.ceil(this.clipping()/this.options.visible):null,b=this.list.children("li"),e=this;if(b.size()>0){var h=0,i=this.options.offset;b.each(function(){e.format(this,i++);h+=e.dimension(this,j)});this.list.css(this.wh,h+100+"px");if(!c||c.size===void 0)this.options.size=b.size()}this.container.css("display","block");this.buttonNext.css("display","block");this.buttonPrev.css("display", "block");this.funcNext=function(){e.next()};this.funcPrev=function(){e.prev()};this.funcResize=function(){e.resizeTimer&&clearTimeout(e.resizeTimer);e.resizeTimer=setTimeout(function(){e.reload()},100)};this.options.initCallback!==null&&this.options.initCallback(this,"init");!m&&g.browser.safari?(this.buttons(!1,!1),g(window).bind("load.jcarousel",function(){e.setup()})):this.setup()};var f=g.jcarousel;f.fn=f.prototype={jcarousel:"0.2.8"};f.fn.extend=f.extend=g.extend;f.fn.extend({setup:function(){this.prevLast= this.prevFirst=this.last=this.first=null;this.animating=!1;this.tail=this.resizeTimer=this.timer=null;this.inTail=!1;if(!this.locked){this.list.css(this.lt,this.pos(this.options.offset)+"px");var a=this.pos(this.options.start,!0);this.prevFirst=this.prevLast=null;this.animate(a,!1);g(window).unbind("resize.jcarousel",this.funcResize).bind("resize.jcarousel",this.funcResize);this.options.setupCallback!==null&&this.options.setupCallback(this)}},reset:function(){this.list.empty();this.list.css(this.lt, "0px");this.list.css(this.wh,"10px");this.options.initCallback!==null&&this.options.initCallback(this,"reset");this.setup()},reload:function(){this.tail!==null&&this.inTail&&this.list.css(this.lt,f.intval(this.list.css(this.lt))+this.tail);this.tail=null;this.inTail=!1;this.options.reloadCallback!==null&&this.options.reloadCallback(this);if(this.options.visible!==null){var a=this,c=Math.ceil(this.clipping()/this.options.visible),b=0,d=0;this.list.children("li").each(function(f){b+=a.dimension(this, c);f+1<a.first&&(d=b)});this.list.css(this.wh,b+"px");this.list.css(this.lt,-d+"px")}this.scroll(this.first,!1)},lock:function(){this.locked=!0;this.buttons()},unlock:function(){this.locked=!1;this.buttons()},size:function(a){if(a!==void 0)this.options.size=a,this.locked||this.buttons();return this.options.size},has:function(a,c){if(c===void 0||!c)c=a;if(this.options.size!==null&&c>this.options.size)c=this.options.size;for(var b=a;b<=c;b++){var d=this.get(b);if(!d.length||d.hasClass("jcarousel-item-placeholder"))return!1}return!0}, get:function(a){return g(">.jcarousel-item-"+a,this.list)},add:function(a,c){var b=this.get(a),d=0,p=g(c);if(b.length===0)for(var j,e=f.intval(a),b=this.create(a);;){if(j=this.get(--e),e<=0||j.length){e<=0?this.list.prepend(b):j.after(b);break}}else d=this.dimension(b);p.get(0).nodeName.toUpperCase()=="LI"?(b.replaceWith(p),b=p):b.empty().append(c);this.format(b.removeClass(this.className("jcarousel-item-placeholder")),a);p=this.options.visible!==null?Math.ceil(this.clipping()/this.options.visible): null;d=this.dimension(b,p)-d;a>0&&a<this.first&&this.list.css(this.lt,f.intval(this.list.css(this.lt))-d+"px");this.list.css(this.wh,f.intval(this.list.css(this.wh))+d+"px");return b},remove:function(a){var c=this.get(a);if(c.length&&!(a>=this.first&&a<=this.last)){var b=this.dimension(c);a<this.first&&this.list.css(this.lt,f.intval(this.list.css(this.lt))+b+"px");c.remove();this.list.css(this.wh,f.intval(this.list.css(this.wh))-b+"px")}},next:function(){this.tail!==null&&!this.inTail?this.scrollTail(!1): this.scroll((this.options.wrap=="both"||this.options.wrap=="last")&&this.options.size!==null&&this.last==this.options.size?1:this.first+this.options.scroll)},prev:function(){this.tail!==null&&this.inTail?this.scrollTail(!0):this.scroll((this.options.wrap=="both"||this.options.wrap=="first")&&this.options.size!==null&&this.first==1?this.options.size:this.first-this.options.scroll)},scrollTail:function(a){if(!this.locked&&!this.animating&&this.tail){this.pauseAuto();var c=f.intval(this.list.css(this.lt)), c=!a?c-this.tail:c+this.tail;this.inTail=!a;this.prevFirst=this.first;this.prevLast=this.last;this.animate(c)}},scroll:function(a,c){!this.locked&&!this.animating&&(this.pauseAuto(),this.animate(this.pos(a),c))},pos:function(a,c){var b=f.intval(this.list.css(this.lt));if(this.locked||this.animating)return b;this.options.wrap!="circular"&&(a=a<1?1:this.options.size&&a>this.options.size?this.options.size:a);for(var d=this.first>a,g=this.options.wrap!="circular"&&this.first<=1?1:this.first,j=d?this.get(g): this.get(this.last),e=d?g:g-1,h=null,i=0,k=!1,l=0;d?--e>=a:++e<a;){h=this.get(e);k=!h.length;if(h.length===0&&(h=this.create(e).addClass(this.className("jcarousel-item-placeholder")),j[d?"before":"after"](h),this.first!==null&&this.options.wrap=="circular"&&this.options.size!==null&&(e<=0||e>this.options.size)))j=this.get(this.index(e)),j.length&&(h=this.add(e,j.clone(!0)));j=h;l=this.dimension(h);k&&(i+=l);if(this.first!==null&&(this.options.wrap=="circular"||e>=1&&(this.options.size===null||e<= this.options.size)))b=d?b+l:b-l}for(var g=this.clipping(),m=[],o=0,n=0,j=this.get(a-1),e=a;++o;){h=this.get(e);k=!h.length;if(h.length===0){h=this.create(e).addClass(this.className("jcarousel-item-placeholder"));if(j.length===0)this.list.prepend(h);else j[d?"before":"after"](h);if(this.first!==null&&this.options.wrap=="circular"&&this.options.size!==null&&(e<=0||e>this.options.size))j=this.get(this.index(e)),j.length&&(h=this.add(e,j.clone(!0)))}j=h;l=this.dimension(h);if(l===0)throw Error("jCarousel: No width/height set for items. This will cause an infinite loop. Aborting..."); this.options.wrap!="circular"&&this.options.size!==null&&e>this.options.size?m.push(h):k&&(i+=l);n+=l;if(n>=g)break;e++}for(h=0;h<m.length;h++)m[h].remove();i>0&&(this.list.css(this.wh,this.dimension(this.list)+i+"px"),d&&(b-=i,this.list.css(this.lt,f.intval(this.list.css(this.lt))-i+"px")));i=a+o-1;if(this.options.wrap!="circular"&&this.options.size&&i>this.options.size)i=this.options.size;if(e>i){o=0;e=i;for(n=0;++o;){h=this.get(e--);if(!h.length)break;n+=this.dimension(h);if(n>=g)break}}e=i-o+ 1;this.options.wrap!="circular"&&e<1&&(e=1);if(this.inTail&&d)b+=this.tail,this.inTail=!1;this.tail=null;if(this.options.wrap!="circular"&&i==this.options.size&&i-o+1>=1&&(d=f.intval(this.get(i).css(!this.options.vertical?"marginRight":"marginBottom")),n-d>g))this.tail=n-g-d;if(c&&a===this.options.size&&this.tail)b-=this.tail,this.inTail=!0;for(;a-- >e;)b+=this.dimension(this.get(a));this.prevFirst=this.first;this.prevLast=this.last;this.first=e;this.last=i;return b},animate:function(a,c){if(!this.locked&& !this.animating){this.animating=!0;var b=this,d=function(){b.animating=!1;a===0&&b.list.css(b.lt,0);!b.autoStopped&&(b.options.wrap=="circular"||b.options.wrap=="both"||b.options.wrap=="last"||b.options.size===null||b.last<b.options.size||b.last==b.options.size&&b.tail!==null&&!b.inTail)&&b.startAuto();b.buttons();b.notify("onAfterAnimation");if(b.options.wrap=="circular"&&b.options.size!==null)for(var c=b.prevFirst;c<=b.prevLast;c++)c!==null&&!(c>=b.first&&c<=b.last)&&(c<1||c>b.options.size)&&b.remove(c)}; this.notify("onBeforeAnimation");if(!this.options.animation||c===!1)this.list.css(this.lt,a+"px"),d();else{var f=!this.options.vertical?this.options.rtl?{right:a}:{left:a}:{top:a},d={duration:this.options.animation,easing:this.options.easing,complete:d};if(g.isFunction(this.options.animationStepCallback))d.step=this.options.animationStepCallback;this.list.animate(f,d)}}},startAuto:function(a){if(a!==void 0)this.options.auto=a;if(this.options.auto===0)return this.stopAuto();if(this.timer===null){this.autoStopped= !1;var c=this;this.timer=window.setTimeout(function(){c.next()},this.options.auto*1E3)}},stopAuto:function(){this.pauseAuto();this.autoStopped=!0},pauseAuto:function(){if(this.timer!==null)window.clearTimeout(this.timer),this.timer=null},buttons:function(a,c){if(a==null&&(a=!this.locked&&this.options.size!==0&&(this.options.wrap&&this.options.wrap!="first"||this.options.size===null||this.last<this.options.size),!this.locked&&(!this.options.wrap||this.options.wrap=="first")&&this.options.size!==null&& this.last>=this.options.size))a=this.tail!==null&&!this.inTail;if(c==null&&(c=!this.locked&&this.options.size!==0&&(this.options.wrap&&this.options.wrap!="last"||this.first>1),!this.locked&&(!this.options.wrap||this.options.wrap=="last")&&this.options.size!==null&&this.first==1))c=this.tail!==null&&this.inTail;var b=this;this.buttonNext.size()>0?(this.buttonNext.unbind(this.options.buttonNextEvent+".jcarousel",this.funcNext),a&&this.buttonNext.bind(this.options.buttonNextEvent+".jcarousel",this.funcNext), this.buttonNext[a?"removeClass":"addClass"](this.className("jcarousel-next-disabled")).attr("disabled",a?!1:!0),this.options.buttonNextCallback!==null&&this.buttonNext.data("jcarouselstate")!=a&&this.buttonNext.each(function(){b.options.buttonNextCallback(b,this,a)}).data("jcarouselstate",a)):this.options.buttonNextCallback!==null&&this.buttonNextState!=a&&this.options.buttonNextCallback(b,null,a);this.buttonPrev.size()>0?(this.buttonPrev.unbind(this.options.buttonPrevEvent+".jcarousel",this.funcPrev), c&&this.buttonPrev.bind(this.options.buttonPrevEvent+".jcarousel",this.funcPrev),this.buttonPrev[c?"removeClass":"addClass"](this.className("jcarousel-prev-disabled")).attr("disabled",c?!1:!0),this.options.buttonPrevCallback!==null&&this.buttonPrev.data("jcarouselstate")!=c&&this.buttonPrev.each(function(){b.options.buttonPrevCallback(b,this,c)}).data("jcarouselstate",c)):this.options.buttonPrevCallback!==null&&this.buttonPrevState!=c&&this.options.buttonPrevCallback(b,null,c);this.buttonNextState= a;this.buttonPrevState=c},notify:function(a){var c=this.prevFirst===null?"init":this.prevFirst<this.first?"next":"prev";this.callback("itemLoadCallback",a,c);this.prevFirst!==this.first&&(this.callback("itemFirstInCallback",a,c,this.first),this.callback("itemFirstOutCallback",a,c,this.prevFirst));this.prevLast!==this.last&&(this.callback("itemLastInCallback",a,c,this.last),this.callback("itemLastOutCallback",a,c,this.prevLast));this.callback("itemVisibleInCallback",a,c,this.first,this.last,this.prevFirst, this.prevLast);this.callback("itemVisibleOutCallback",a,c,this.prevFirst,this.prevLast,this.first,this.last)},callback:function(a,c,b,d,f,j,e){if(!(this.options[a]==null||typeof this.options[a]!="object"&&c!="onAfterAnimation")){var h=typeof this.options[a]=="object"?this.options[a][c]:this.options[a];if(g.isFunction(h)){var i=this;if(d===void 0)h(i,b,c);else if(f===void 0)this.get(d).each(function(){h(i,this,d,b,c)});else for(var a=function(a){i.get(a).each(function(){h(i,this,a,b,c)})},k=d;k<=f;k++)k!== null&&!(k>=j&&k<=e)&&a(k)}}},create:function(a){return this.format("<li></li>",a)},format:function(a,c){for(var a=g(a),b=a.get(0).className.split(" "),d=0;d<b.length;d++)b[d].indexOf("jcarousel-")!=-1&&a.removeClass(b[d]);a.addClass(this.className("jcarousel-item")).addClass(this.className("jcarousel-item-"+c)).css({"float":this.options.rtl?"right":"left","list-style":"none"}).attr("jcarouselindex",c);return a},className:function(a){return a+" "+a+(!this.options.vertical?"-horizontal":"-vertical")}, dimension:function(a,c){var b=g(a);if(c==null)return!this.options.vertical?b.outerWidth(!0)||f.intval(this.options.itemFallbackDimension):b.outerHeight(!0)||f.intval(this.options.itemFallbackDimension);else{var d=!this.options.vertical?c-f.intval(b.css("marginLeft"))-f.intval(b.css("marginRight")):c-f.intval(b.css("marginTop"))-f.intval(b.css("marginBottom"));g(b).css(this.wh,d+"px");return this.dimension(b)}},clipping:function(){return!this.options.vertical?this.clip[0].offsetWidth-f.intval(this.clip.css("borderLeftWidth"))- f.intval(this.clip.css("borderRightWidth")):this.clip[0].offsetHeight-f.intval(this.clip.css("borderTopWidth"))-f.intval(this.clip.css("borderBottomWidth"))},index:function(a,c){if(c==null)c=this.options.size;return Math.round(((a-1)/c-Math.floor((a-1)/c))*c)+1}});f.extend({defaults:function(a){return g.extend(q,a||{})},intval:function(a){a=parseInt(a,10);return isNaN(a)?0:a},windowLoaded:function(){m=!0}});g.fn.jcarousel=function(a){if(typeof a=="string"){var c=g(this).data("jcarousel"),b=Array.prototype.slice.call(arguments, 1);return c[a].apply(c,b)}else return this.each(function(){var b=g(this).data("jcarousel");b?(a&&g.extend(b.options,a),b.reload()):g(this).data("jcarousel",new f(this,a))})}})(jQuery);
+</script>
+
+	</body>
+</html>
+
